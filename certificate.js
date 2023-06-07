@@ -31,7 +31,10 @@ window.onload = function() {
                     context.fillText("com carga horária de 3,5 horas, pelo Grupo NVS.", canvas.width / 2, canvas.height / 2 + 200);
 
                     context.font = "italic 60px Arial";
-                    context.fillText("6 de junho de 2023 - Piraquara/PR", canvas.width / 2, canvas.height / 2 + 450);
+                    context.fillText("8 de junho de 2023 - Piraquara/PR", canvas.width / 2, canvas.height / 2 + 450);
+                    context.font = "italic 50px Arial";
+                    context.fillText("___________________", canvas.width / 2 + 1000, canvas.height / 2 + 400);
+                    context.fillText("Nota", canvas.width / 2 + 1000, canvas.height / 2 + 450);
 
                     context.font = "italic 50px Arial";
                     context.fillText("_______________________________", canvas.width / 2 - 500, canvas.height / 2 + 800);
