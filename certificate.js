@@ -1,6 +1,5 @@
 window.onload = function() {
     var students = JSON.parse(localStorage.getItem('students'));
-    var students = JSON.parse(localStorage.getItem('students'));
 
     if (students && students.length > 0) {
         var zip = new JSZip();
@@ -33,10 +32,10 @@ window.onload = function() {
                     context.font = "italic 60px Arial";
                     context.fillText("8 de junho de 2023 - Piraquara/PR", canvas.width / 2, canvas.height / 2 + 450);
                     context.font = "italic 50px Arial";
+                    context.fillText(student.grade, canvas.width / 2 + 1000, canvas.height / 2 + 390);
                     context.fillText("___________________", canvas.width / 2 + 1000, canvas.height / 2 + 400);
                     context.fillText("Nota", canvas.width / 2 + 1000, canvas.height / 2 + 450);
 
-                    context.font = "italic 50px Arial";
                     context.fillText("_______________________________", canvas.width / 2 - 500, canvas.height / 2 + 800);
                     context.fillText("Instrutor", canvas.width / 2 - 500, canvas.height / 2 + 850);
 
